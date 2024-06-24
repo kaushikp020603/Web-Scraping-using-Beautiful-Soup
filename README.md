@@ -7,14 +7,14 @@ This project leverages Beautiful Soup, a powerful library for web scraping, to e
 ## Features
 
 - **Efficient Scraping**: Achieves efficient and accurate data extraction from web pages.
-- **Data Tracking**: Tracks prices of items on eBay and lists of top songs on Billboard.
+- **Data Tracking**: Tracks prices of items on eBay, lists of top songs on Billboard, IMDB Top 20 movies, and Bitcoin prices.
 - **Versatility**: Can be adapted to scrape data from various websites.
 - **Scalability**: Designed to handle large volumes of data for continuous monitoring.
 
 ## How It Works
 
 1. **Web Scraping**: Uses Beautiful Soup to parse HTML and extract data.
-2. **Data Extraction**: Extracts specific data points such as eBay item prices and Billboard top songs.
+2. **Data Extraction**: Extracts specific data points such as eBay item prices, Billboard top songs, IMDB movie rankings, and Bitcoin prices.
 3. **Data Storage**: Stores the extracted data for further analysis and tracking.
 
 ## Tech Stack
@@ -24,6 +24,12 @@ This project leverages Beautiful Soup, a powerful library for web scraping, to e
 - ![Requests](https://img.shields.io/badge/Requests-005A9C?style=for-the-badge&logo=python&logoColor=white)
 - ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
+## Data Sources
+
+- **eBay**: Tracks item prices.
+- **Billboard**: Lists top songs.
+- **IMDB Top 20 Movies**: Tracks popular movies according to IMDB rankings.
+- **Bitcoin Price**: Monitors the current price of Bitcoin.
 
 ## Future Enhancements
 
